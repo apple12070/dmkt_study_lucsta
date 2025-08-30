@@ -8,7 +8,7 @@ USE sakila;
 
 SELECT * FROM rental LIMIT 5;
 
-WITH rental_counts AS (
+
 WITH rental_counts AS (
 	SELECT
 		customer_id,
